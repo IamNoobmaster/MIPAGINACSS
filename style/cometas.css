@@ -1,0 +1,274 @@
+/*-----CUERPO----*/
+body{
+    
+    width: 100%;
+    height: 300px;
+    
+}
+
+/*-------------cabeza( banner gif)-------*/
+header{
+    background-image: url("https://acegif.com/wp-content/uploads/gifs/starfall-gif-40.gif");
+    background-size: 100% 97%;
+    height: 250px;
+    overflow:hidden;}
+
+/*-------cabeza ( titulo creoxd  )*/
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 80px;
+    font-style: italic;
+}
+
+    /*---------( titulo )LAS CONSTELACIONES ( efecto 3d)------*/
+.text {
+    position: absolute;
+    top: 9%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+
+
+/*----barra de menu------*/
+#principal{
+	text-align: center;
+	background-color: #828281;
+}
+.navbar {
+	background: #fafaf9;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+    text-decoration:solid ;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+    text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*---------------la informacion del cuerpo----------*/
+#cometa{
+    text-align:center;
+    font-size: medium;
+}
+#componen{
+    font-size: 26px;
+}
+.lista{
+    list-style-type: circle; /*para tipos de vinetas xd*/
+}
+ul{
+    list-style-type: square;
+    text-align:justify;
+    font-size: 24px;
+}
+
+
+.segundocuerpo{
+    background-color:#f5f5f5 ;
+    width:40% ;
+    float: right;
+}
+
+div.noticia {
+    width: 90%;
+    margin: 20px auto;
+    background-color:#f5f5f5;
+    color:#f5f5f5;
+}
+
+div.noticia :hover{
+    color: red;
+}
+
+.xd{
+    font-size: 30px;
+}
+.xd :hover{
+    background-color: green;
+}
+.cuadrado2{
+    width: 550px;
+    height: 50px;
+    background-color: rgb(246, 248, 248);
+    color: #000;
+}
+.cuadrado2 :hover{
+    background-color:green;
+    color:white
+    
+}
+.linknoti{
+    text-decoration:none ;
+    color:#000
+    
+}
+
+
+
+
+
+
+
+
+section{
+    background-color: #f5f5f5;
+    width: 60%;
+}
+.cuerpoxd{
+    text-overflow: clip;
+}
+
+/*--------PARA CENTRAR LAS IMAGENES-------*/
+div{
+    text-align: center;
+}
+
+
+
+/*---------subtitulos--------*/
+h2{
+    text-align:left;
+    text-decoration: none;
+    font-family:cursive;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+/*-------PARRAFOS----------*/
+p{
+    text-align:justify;
+    font-size: 25px;
+    word-spacing:5px;
+    margin: 40px;
+
+}
+
+/*mas informacion xd*/
+.cuadrado {
+    width: 500px;           /* Ancho de 150 píxeles */
+    height: 50px;          /* Alto de 150 píxeles */
+    background:rgb(155, 213, 201);        /* Fondo de color rojo */
+    border-color: #000;
+}
+
+
+
+/*------------PIE DE PAGINA (FOOTER)------------*/
+.pie-pagina{
+    width: 100%;
+    background-color:gray
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 .box figure img{
+    margin-top: 30px;
+    width: 150px;
+    height: 140px;
+    
+}
+.pie-pagina .grupo-1 .box h2{
+    color:black;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(250, 247, 247);
+    margin-right: 10px;
+    background-color:brown;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: black;
+}
+
+.pie-pagina .grupo-2{
+    background-color:gray;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    }
+}

@@ -1,0 +1,195 @@
+body{
+    
+    background-image:url("") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+    
+}
+
+header{
+    background-image: url("https://www.mdscc.nasa.gov/wp-content/uploads/2021/05/sn_banner_1.gif");
+    background-size: 100% 97%;
+    height: 250px;
+    overflow:hidden;}
+
+
+
+h1{
+    text-align: center;
+    color:gold;
+    font-family:cursive;
+    font-size: 80px;
+    text-shadow: 5px 3px 8px white ;
+
+}
+
+
+#principal{
+	text-align: center;
+	background-color: #828281;
+}
+.navbar {
+	background: #fafaf9;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+    text-decoration:solid ;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+    text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+div{ 
+    text-align: center;
+}
+
+
+
+h1{
+    font-family:cursive;
+    font-style: italic;
+}
+h2{
+    text-align:center;
+    color:red;
+    text-decoration: none;
+    font-family:cursive;
+    font-style: italic;
+    /*text-shadow: 1px 1px 1px  lawngreen; (sirve para poner sombra de color a la palabra) */
+    margin: 30px;
+    font-size: 30px;
+}
+
+
+
+p{
+    text-align: center;
+    
+    font-size: 25px;
+    word-spacing:5px;
+    margin: 40px;
+
+}
+
+.cuadrado{
+    width: 500px;           /* Ancho de 150 píxeles */
+    height: 50px;          /* Alto de 150 píxeles */
+    background:rgb(201, 197, 197);        /* Fondo de color rojo */
+    float: left;
+}
+.tarea{
+    width: 200px;           /* Ancho de 150 píxeles */
+    height: 40px;          /* Alto de 150 píxeles */
+    background:rgb(201, 197, 197);        /* Fondo de color rojo */
+    float: right;
+}
+
+.imagen{
+    text-align: center;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color:gray
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 .box figure img{
+    margin-top: 30px;
+    width: 150px;
+    height: 140px;
+    
+}
+.pie-pagina .grupo-1 .box h2{
+    color:black;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(250, 247, 247);
+    margin-right: 10px;
+    background-color:brown;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: black;
+}
+
+.pie-pagina .grupo-2{
+    background-color:gray;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    }
+}
+
+
+
+
+
+
+
